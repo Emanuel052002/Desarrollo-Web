@@ -3,6 +3,9 @@ body
     background-color: rgb(71, 71, 71);
 }
 
+/* ----------------------------------------Estilos para el Encabezado-------------------------------- */
+/*----------------------------------------------------------------------------------------------------*/
+
 header
 {
     background-color: rgb(93, 226, 121);
@@ -23,6 +26,16 @@ nav
     text-align: center;
 }
 
+.barra_navegacion
+{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 5px solid black;
+}
+
 img
 {
     width: 150px;
@@ -41,26 +54,15 @@ img
     padding: 5px;
 }
 
-.Menu
+.menuSecciones
 {
-    font-size: 20px;
-    color: black;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#sobreMi
-{
-    background-color: rgb(245, 150, 186);
+    background-color: rgb(230, 245, 164);
     margin: 10px;
     padding: 5px;
     border: solid 7px gray;
-}
-
-#datosSobreMi
-{
     font-size: 20px;
 }
+
 
 li
 {
