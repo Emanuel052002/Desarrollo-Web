@@ -1,0 +1,80 @@
+body
+{
+    background-color: rgb(71, 71, 71);
+}
+
+header
+{
+    background-color: rgb(93, 226, 121);
+    border: black solid 5px;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+nav
+{
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgb(65, 243, 228);
+    border: solid 5px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+img
+{
+    width: 150px;
+    height: 100%;
+    margin: 2px;
+    padding: 0;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+
+#nombreTitulo
+{
+    text-align: center;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Menu
+{
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sobreMi
+{
+    background-color: rgb(245, 150, 186);
+    margin: 10px;
+    padding: 5px;
+    border: solid 7px gray;
+}
+
+#datosSobreMi
+{
+    font-size: 20px;
+}
+
+li
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+.subtitulo
+{
+    background-color: chartreuse;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    border: solid black 5px;
+}
