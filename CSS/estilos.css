@@ -1,6 +1,7 @@
 body
 {
     background-color: rgb(71, 71, 71);
+    margin-top: 10px;
 }
 
 /* ----------------------------------------Estilos para el Encabezado-------------------------------- */
@@ -8,50 +9,56 @@ body
 
 header
 {
-    background-color: rgb(93, 226, 121);
+    background-color: rgb(11, 238, 162);
     border: black solid 5px;
-    border-radius: 25px;
-    margin: 5px;
+    border-radius: 0px;
+    margin-top: 5;
+    margin-bottom: 5;
     padding: 2px;
     text-align: center;
 }
 
-nav
+.barraNavegacion
 {
-    font-size: 15px;
-    padding: 5px;
-    background-color: rgb(65, 243, 228);
-    border: solid 5px;
-    border-radius: 25px;
-    text-align: center;
-}
-
-.barra_navegacion
-{
-    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
     color: black;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 5px;
-    border: 5px solid black;
+    margin: 0;
+    padding: 0; 
 }
 
 #fotoPerfil
 {
-    width: 150px;
-    height: 100%;
-    margin: 2px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 0;
     padding: 0;
+    border-radius: 25px;
     border: 5px solid white;
-    border-radius: 50px;
+
 }
 
-#nombreTitulo
+#datosSobreMi
 {
-    text-align: center;
-    color: black;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    
     margin: 5px;
-    padding: 5px;
+    padding: 2px;
+}
+
+.ubicacionJustificada
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .menuSecciones
@@ -61,14 +68,9 @@ nav
     padding: 5px;
     border: solid 7px gray;
     font-size: 20px;
+    
 }
 
-
-li
-{
-    margin: 5px;
-    padding: 5px;
-}
 
 .subtitulo
 {
@@ -83,36 +85,32 @@ li
 
 .logos
 {
-    width: 75px;
-    height: auto;
-    text-align: center;
+    width: 100px;
+    height: 100px;
 }
 
 .ContLogos
 {
-    border: 2px solid black;
-    margin: 3px;
-    padding: 2px;
-    text-align: center;
-    width: 150px;
-    height: 150px;
-}
-
-.LogoContacto
-{
     margin: 3px;
     padding: 3px;
-    text-align: left;
-    width: 50px;
-    height: 50px;
+    width: 200;
+    height: auto;
     color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.ubicacionLogos
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .iconoContacto
 {
-    margin: 3px;
-    padding: 3pk;
-    text-align: right;
     width: 50px;
     height: 50px;
 }
+

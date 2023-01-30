@@ -13,13 +13,13 @@
     <!-- Encabezado -->
 
     <header>
-        <img id="fotoPerfil" src="/imagenes/foto_perfil_ej.jpg" alt="Foto de Perfil de un CV">
-        <h1 id="nombreTitulo">Pedro Ramirez</h1>
         <nav>
-            <a class="barra_navegacion" href="#sobreMi">Sobre Mi</a>
-            <a class="barra_navegacion" href="#habilidades">Habilidades</a>
-            <a class="barra_navegacion" href="#experiencia">Experiencia</a>
-            <a class="barra_navegacion" href="#contacto">Contacto</a>
+            <div class="barraNavegacion">
+                <a  href="#sobreMi">Sobre Mi</a>
+                <a  href="#habilidades">Habilidades</a>
+                <a  href="#experiencia">Experiencia</a>
+                <a  href="#contacto">Contacto</a>
+            </div>
         </nav>
     </header>
 
@@ -27,38 +27,45 @@
 
     <section class="menuSecciones" id="sobreMi">
         <h2 class="subtitulo">Sobre Mi</h2>
-            <ul id="datosSobreMi">
-                <li>Nombre: Pedro </li>
-                <li>Apellido: Ramirez</li>
-                <li>Fecha de Nacimiento: 10/4/1969</li>
-                <li>Ocupacion Actual: Desarrollador FrontEnd</li>
-                <li>Educacion: 
-                    <ul>
-                        <li> Cursos Ticmas FrontEnd</li>
-                        <li> Facultad Nacional de Chihuaha</li>
-                        <li> Cursos en Youtube</li>
-                    </ul>
-                </li>
-            </ul>
+        <div class="ubicacionJustificada">
+            <img id="fotoPerfil" src="/imagenes/foto_perfil_ej.jpg" alt="Foto de Perfil de un CV">         
+            <div id="datosSobreMi">
+                <ul>
+                    <li> <strong>Nombre:</strong> Pedro </li>
+                    <li> <strong>Apellido</strong> : Ramirez</li>
+                    <li> <strong>Fecha de Nacimiento:</strong>  10/4/1969</li>
+                    <li> <strong>Ocupacion Actual:</strong>  Desarrollador FrontEnd</li>
+                    <li> <strong>Educacion: </strong> 
+                        <ol>
+                            <li> Facultad Nacional de Algun Lugar</li>
+                            <li> Cursos Ticmas FrontEnd</li>
+                            <li> Cursos en Youtube</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
 
     <section class="menuSecciones" id="habilidades">
         <h2 class="subtitulo">Habilidades</h2>
-        <div class="ContLogos">
-            <img class="logos" src="/imagenes/LOGOS/html.png" alt="Logo de HTML">
-            <p>HTML</p>
-        </div>
-        <div class="ContLogos">
-            <img class="logos" src="/imagenes/LOGOS/css.png" alt="Logo de CSS">
-            <p>CSS</p>
-        </div>
-        <div class="ContLogos">
-            <img class="logos" src="/imagenes/LOGOS/js.png" alt="Logo de JS">
-            <p>Java Script</p>
-        </div>
-        <div class="ContLogos">
-            <img class="logos" src="/imagenes/LOGOS/git.png" alt="Logo de GIT">
-            <p>GIT</p>
+        <div class="ubicacionLogos">
+            <div class="ContLogos">
+                <img class="logos" src="/imagenes/LOGOS/html.png" alt="Logo de HTML">
+                <p>HTML</p>
+            </div>
+            <div class="ContLogos">
+                <img class="logos" src="/imagenes/LOGOS/css.png" alt="Logo de CSS">
+                <p>CSS</p>
+            </div>
+            <div class="ContLogos">
+                <img class="logos" src="/imagenes/LOGOS/js.png" alt="Logo de JS">
+                <p>Java Script</p>
+            </div>
+            <div class="ContLogos">
+                <img class="logos" src="/imagenes/LOGOS/git.png" alt="Logo de GIT">
+                <p>GIT</p>
+            </div>
         </div>
     </section>
 
@@ -68,30 +75,34 @@
 
     </section>
     
-    <section class="menuSecciones" id="contacto">
-        <h2 class="subtitulo">Contacto</h2>
-
-        <div class="LogoContacto">
-            <img class="iconoContacto" src="/imagenes/LOGOS/gmail.png" alt="Icono de Gmail">
-            <p>unnombre@gmail.com</p>
-        </div>
-
-        <div class="LogoContacto">
-            <img class="iconoContacto" src="/imagenes/LOGOS/llamada-telefonica.png" alt="Icono de Telefono">
-            <p>381-1234567</p>
-        </div>
-
-        <div class="LogoContacto">
-            <img class="iconoContacto" src="/imagenes/LOGOS/instagram.png" alt="Icono de Instagram">
-            <p>UnNombre_</p>
-        </div>
-
-        <div class="LogoContacto">
-            <img class="iconoContacto" src="/imagenes/LOGOS/linkedin.png" alt="">
-            <p>unnombre@linkedin.com</p>
-        </div>
-
-    </section>
+    <footer>
+        <section class="menuSecciones" id="contacto">
+            <h2 class="subtitulo">Contacto</h2>
+        
+            <div class="ubicacionLogos">
+                <div class="ContLogos">
+                    <img class="iconoContacto" src="/imagenes/LOGOS/gmail.png" alt="Icono de Gmail">
+                    <p>unnombre@gmail.com</p>
+                </div>
+                
+                <div class="ContLogos">
+                    <img class="iconoContacto" src="/imagenes/LOGOS/llamada-telefonica.png" alt="Icono de Telefono">
+                    <p>381-1234567</p>
+                </div>
+                
+                <div class="ContLogos">
+                    <img class="iconoContacto" src="/imagenes/LOGOS/instagram.png" alt="Icono de Instagram">
+                    <p>UnNombre_</p>
+                </div>
+                
+                <div class="ContLogos">
+                    <img class="iconoContacto" src="/imagenes/LOGOS/linkedin.png" alt="">
+                    <p>unnombre@linkedin.com</p>
+                </div>
+            </div>
+        
+        </section>
+    </footer>
     
 </body>
 </html>
