@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(71, 71, 71);
+    background-image: url(/imagenes/fondo_Estrellas2.png);
     margin-top: 10px;
 }
 
@@ -9,9 +9,9 @@ body
 
 header
 {
-    background-color: rgb(11, 238, 162);
+    background-color: bisque;
     border: black solid 5px;
-    border-radius: 0px;
+    border-radius: 25px;
     margin-top: 5;
     margin-bottom: 5;
     padding: 2px;
@@ -26,26 +26,25 @@ header
     color: black;
     margin: 0;
     padding: 0; 
+
+}
+
+a
+{
+    color:black;
 }
 
 #fotoPerfil
 {
-    display: inline-block;
     width: 200px;
     height: 200px;
     margin: 0;
     padding: 0;
     border-radius: 25px;
-    border: 5px solid white;
+    border: 5px solid black;
 
 }
 
-#datosSobreMi
-{
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
 
 li
 {
@@ -56,31 +55,48 @@ li
 
 .ubicacionJustificada
 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: inline-block;
+    text-align: center;
 }
 
 .menuSecciones
 {
-    background-color: rgb(11, 238, 162);
-    margin: 10px;
+    margin: 100px 0 100px 0;
     padding: 5px;
-    border: solid 7px gray;
     font-size: 20px;
+    border-radius: 25px;
     
 }
 
+#datosSobreMi
+{
+    background-color:bisque;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border-radius: 25px;
+
+}
+
+.nombreLogo
+{
+    background-color: bisque;
+    border: 10px solid bisque;
+    border-radius: 25px;
+}
 
 .subtitulo
 {
-    background-color: chartreuse;
+    background-color: bisque;
     font-size: 25px;
     color: black;
     text-align: center;
     margin: 5px;
     padding: 2px;
-    border: solid black 5px;
+    border: solid bisque;
+    border-radius: 25px;
 }
 
 .logos
@@ -114,3 +130,33 @@ li
     height: 50px;
 }
 
+.Left
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.Right
+{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 70%;
+}
+
+.Center
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+}
+
+footer
+{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 60%;
+}
