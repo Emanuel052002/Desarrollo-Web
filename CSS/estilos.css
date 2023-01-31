@@ -45,7 +45,6 @@ a
 
 }
 
-
 li
 {
     
@@ -70,7 +69,7 @@ li
 
 #datosSobreMi
 {
-    background-color:bisque;
+    background-color:black;
     color: rgb(0, 0, 0);
     display: inline-block;
     margin: 0;
@@ -82,14 +81,12 @@ li
 
 .nombreLogo
 {
-    background-color: bisque;
-    border: 10px solid bisque;
     border-radius: 25px;
 }
 
 .subtitulo
 {
-    background-color: bisque;
+    background-color:darkcyan;
     font-size: 25px;
     color: black;
     text-align: center;
@@ -130,27 +127,27 @@ li
     height: 50px;
 }
 
-.Left
+.Seccion1
 {
     display: flex;
     justify-content: flex-start;
-    width: 30%;
+    width: 100%;
 }
 
-.Right
+.Seccion2
 {
     display: flex;
     justify-content:flex-end;
     align-items: center;
-    width: 70%;
+    width: 100%;
 }
 
-.Center
+.Seccion3
 {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    width: 80%;
+    width: 70%;
 }
 
 footer
@@ -158,5 +155,79 @@ footer
     display: flex;
     justify-content:flex-end;
     align-items: center;
-    width: 60%;
+    width: 100%;
 }
+
+#botonMagico1
+{
+    font-size: 15px;
+    position:relative;
+    top: 200px;
+    left: 300px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+    width: auto;
+    height: 200px;
+    background-color:blueviolet;
+    color:white;
+    border-radius: 25px;
+    border: 5px solid darkslategrey;
+}
+
+#botonMagico2
+{
+    font-size: 15px;
+    position: relative;
+    right: 950px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+    width: auto;
+    height: 200px;
+    background-color:rgb(78, 48, 105);
+    color:white;
+    border-radius: 25px;
+    border: 5px solid darkslategrey;
+}
+
+#botonMagico3
+{
+    font-size: 15px;
+    position: relative;
+    left: 150px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+    width: 400px;
+    height: 200px;
+    background-color:blueviolet;
+    color:white;
+    border-radius: 25px;
+    border: 5px solid darkslategrey;
+}
+
+#botonMagico4
+{
+    font-size: 15px;
+    position: relative;
+    right: 1000px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    background-color:blueviolet;
+    color:white;
+    border-radius: 25px;
+    border: 5px solid darkslategrey;
+}
+
